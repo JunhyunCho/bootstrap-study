@@ -19,7 +19,7 @@ myCarousel.addEventListener('slide.bs.carousel', function (event) {
 
 
 
-const DEMO_MAP_ID = "4504f8b37365c3d0"
+const DEMO_MAP_ID = "bf275fc383452ffe"
 /**
  * @license
  * Copyright 2019 Google LLC. All Rights Reserved.
@@ -35,7 +35,7 @@ async function initMap() {
     map = new Map(document.getElementById("map"), {
       zoom: 12,
       center: { lat: 34.84555, lng: -111.8035 },
-      mapId: "4504f8b37365c3d0",
+      mapId: "bf275fc383452ffe",
     });
     // Set LatLng and title text for the markers. The first marker (Boynton Pass)
     // receives the initial focus when tab is pressed. Use arrow keys to
